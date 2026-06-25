@@ -1,0 +1,51 @@
+```yaml
+cff-version: 1.2.0
+title: "DataLens"
+message: >
+  If you use this software in your research, please cite it using the metadata below.
+type: software
+
+authors:
+  - family-names: "Cushing"
+    given-names: "Reggie"
+    orcid: "https://orcid.org/0000-0002-5967-7302"
+
+repository-code: "https://github.com/recap/DataLens"
+
+abstract: >
+  DataLens is a reusable Jupyter Notebook for exploratory data analysis (EDA)
+  of CSV datasets. It provides descriptive statistics, data quality checks,
+  correlation analysis, and a collection of standard visualisations for rapid
+  inspection of tabular data.
+
+keywords:
+  - exploratory data analysis
+  - EDA
+  - data science
+  - pandas
+  - python
+  - jupyter
+  - notebook
+  - statistics
+  - visualization
+
+license: Apache-2.0
+
+version: "1.0.0"
+
+date-released: 2026-06-25
+
+url: "https://github.com/recap/DataLens"
+
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Cushing"
+      given-names: "Reggie"
+      orcid: "https://orcid.org/0000-0002-5967-7302"
+  title: "DataLens"
+  version: "1.0.0"
+  date-released: 2026-06-25
+  url: "https://github.com/recap/DataLens"
+```
+

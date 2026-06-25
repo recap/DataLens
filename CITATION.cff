@@ -1,10 +1,8 @@
-```yaml
 cff-version: 1.2.0
 title: "DataLens"
 message: >
   If you use this software in your research, please cite it using the metadata below.
 type: software
-
 authors:
   - family-names: "Cushing"
     given-names: "Reggie"
@@ -47,5 +45,3 @@ preferred-citation:
   version: "1.0.0"
   date-released: 2026-06-25
   url: "https://github.com/recap/DataLens"
-```
-

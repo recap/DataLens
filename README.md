@@ -40,7 +40,7 @@ Each analysis step is accompanied by detailed explanations describing:
 ```
 .
 ├── DataLens_EDA.ipynb     # Main notebook
-├── data.csv               # Example dataset
+├── sample_data.csv               # Example dataset
 ├── README.md
 └── LICENSE
 ```

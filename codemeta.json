@@ -3,7 +3,7 @@
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/recap/DataLens",
   "name": "DataLens",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A reusable Jupyter Notebook for exploratory data analysis (EDA) of CSV datasets. DataLens provides descriptive statistics, data quality checks, correlation analysis, and standard visualisations to rapidly inspect tabular data.",
   "codeRepository": "https://github.com/recap/DataLens",
   "url": "https://github.com/recap/DataLens",

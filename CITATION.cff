@@ -29,7 +29,7 @@ keywords:
 
 license: Apache-2.0
 
-version: "1.0.0"
+version: "0.1.0"
 
 date-released: 2026-06-25
 
@@ -42,6 +42,6 @@ preferred-citation:
       given-names: "Reggie"
       orcid: "https://orcid.org/0000-0002-5967-7302"
   title: "DataLens"
-  version: "1.0.0"
+  version: "0.1.0"
   date-released: 2026-06-25
   url: "https://github.com/recap/DataLens"

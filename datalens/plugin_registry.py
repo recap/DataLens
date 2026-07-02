@@ -63,6 +63,8 @@ def render_inventory(inventory, plugins, max_files_per_type=2):
             if count >= max_files_per_type:
                 continue
 
+            print('=' * 100)
+
             display(Markdown(f"### {plugin.name}: `{row['relative_path']}`"))
 
             try:

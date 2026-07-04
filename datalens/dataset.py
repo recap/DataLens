@@ -2,6 +2,7 @@ import subprocess
 
 def download(dataset_url, out_path):
     try:
+        dataset_url = dataset_url.strip().strip("\"'")
         result = subprocess.run(
             ["./datahugger", "download", dataset_url, "--to", out_path],
             capture_output=True,

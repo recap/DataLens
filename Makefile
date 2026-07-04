@@ -37,3 +37,15 @@ clean-checkpoints:
 		-exec rm -rf {} +
 
 clean: clean-py clean-notebook clean-checkpoints
+
+build:
+	docker build --platform linux/amd64 -t datalens-x86 .
+
+run: build
+	docker run --rm -it \
+  --platform linux/amd64 \
+  -p 8888:8888 \
+  -v "$(shell pwd)":/home/jovyan/work \
+  -w /home/jovyan/work \
+  datalens-x86 \
+  start-notebook.py --NotebookApp.token=''

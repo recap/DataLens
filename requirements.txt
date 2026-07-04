@@ -1,4 +1,5 @@
 pandas
+dotenv
 numpy
 matplotlib
 python-dotenv

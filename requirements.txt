@@ -11,3 +11,4 @@ xarray
 netCDF4
 pypdf
 Pillow
+nbstager @ git+https://github.com/recap/nbstager.git

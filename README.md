@@ -10,5 +10,3 @@ Renderable types:
 - `.pdf`
 - `.csv`, `.tsv`, `.xlsx`, `.parquet`
 - `.txt`, `.md`, `.json`
-
-## tests

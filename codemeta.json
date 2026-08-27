@@ -10,9 +10,18 @@
   "@id": "https://github.com/recap/Datalens",
   "@type": "SoftwareSourceCode",
   "name": "Datalens",
-  "description": "A Binder-enabled Jupyter notebook repository for interactive data analysis.",
+  "description": "Datalens is an interactive scientific data exploration and analysis environment implemented as a Jupyter notebook and designed to run reproducibly through Binder. The repository contains the notebook source together with the environment definition required to recreate its software dependencies and execute the analysis in a browser-based Binder environment.",
   "codeRepository": "https://github.com/recap/Datalens",
   "identifier": "https://github.com/recap/Datalens",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Reginald",
+      "familyName": "Cushing",
+      "url": "https://github.com/recap"
+    }
+  ],
   "programmingLanguage": "Python",
   "runtimePlatform": [
     {

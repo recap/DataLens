@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "https://w3id.org/codemeta/3.0",
+    "https://w3id.org/software-types",
+    "https://eosc-data-commons.github.io/execution-environment/context.jsonld",
+    {
+      "schema": "https://schema.org/"
+    }
+  ],
+  "@id": "https://github.com/recap/Datalens",
+  "@type": "SoftwareSourceCode",
+  "name": "Datalens",
+  "description": "A Binder-enabled Jupyter notebook repository for interactive data analysis.",
+  "codeRepository": "https://github.com/recap/Datalens",
+  "identifier": "https://github.com/recap/Datalens",
+  "programmingLanguage": "Python",
+  "runtimePlatform": [
+    {
+      "@id": "#binder-environment",
+      "@type": [
+        "BinderEnvironment"
+      ],
+      "name": "Binder execution environment",
+      "schema:hasPart": [
+        {
+          "@id": "https://github.com/recap/Datalens/blob/main/requirements.txt"
+        }
+      ]
+    }
+  ],
+  "isSourceCodeOf": [
+    {
+      "@id": "#notebook",
+      "@type": "NotebookApplication",
+      "name": "Datalens notebook"
+    }
+  ],
+  "applicationCategory": "Scientific software",
+  "keywords": [
+    "Jupyter Notebook",
+    "Binder",
+    "data analysis"
+  ]
+}
